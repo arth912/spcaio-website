@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpaceIO CRM — The Premium OS for Interior Design Studios</title>
+  <meta name="description" content="Manage clients, auto-calculate quotation estimates with margins, and export gorgeous branded PDF proposals that close deals in minutes. Built specifically for elite architects and interior designers.">
+  
+  <!-- SEO Tags -->
+  <meta property="og:title" content="SpaceIO CRM — The Premium OS for Interior Design Studios">
+  <meta property="og:description" content="Automate estimations, manage clients, and export gorgeous branded PDF proposals.">
+  <meta property="og:image" content="images/spaceio_logo.png">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Style Link -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- BACKGROUND GLOWS -->
+  <div class="radial-glow glow-top-left"></div>
+  <div class="radial-glow glow-bottom-right"></div>
+
+  <!-- NAVIGATION -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo" id="navLogo">
+        <img src="images/spaceio_logo.png" alt="SpaceIO Logo" class="logo-img">
+        <div class="logo-text">
+          <span class="logo-title">SpaceIO</span>
+          <span class="logo-subtitle">CRM Engine</span>
+        </div>
+      </a>
+      
+      <nav class="nav-menu">
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#preview" class="nav-link">Live Preview</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+      </nav>
+      
+      <div class="nav-actions">
+        <a href="https://crm.withspaceio.in/login" class="btn-secondary">Sign In</a>
+        <a href="https://crm.withspaceio.in/login?tab=register" class="btn-primary">Start Now</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero-section">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="badge-premium">
+          <span class="badge-dot"></span>
+          <span>SaaS Platform for Designers</span>
+        </div>
+        <h1 class="hero-title">The Operating System for Elite Interior Design Studios.</h1>
+        <p class="hero-subtitle">Automate itemized estimations, track client interactions, and auto-generate beautifully custom-branded PDF proposals that win high-value contracts.</p>
+        
+        <div class="hero-cta-group">
+          <form class="email-capture" id="heroSignup">
+            <input type="email" placeholder="Enter your work email" required class="email-input" id="heroEmail">
+            <button type="submit" class="btn-primary btn-submit">
+              <span>Start Now</span>
+              <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </form>
+          <div class="hero-proof">
+            <div class="avatars">
+              <span class="avatar">A</span>
+              <span class="avatar">M</span>
+              <span class="avatar">R</span>
+            </div>
+            <p class="proof-text">Trusted by 10+ designers across the country</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- HERO INTERACTIVE APP PREVIEW -->
+      <div class="hero-preview">
+        <div class="glass-window animate-float">
+          <div class="window-header">
+            <div class="window-dots">
+              <span class="dot-red"></span>
+              <span class="dot-yellow"></span>
+              <span class="dot-green"></span>
+            </div>
+            <div class="window-tab">SpaceIO CRM - Dashboard</div>
+          </div>
+          <div class="window-body">
+            <img src="images/dashboard_mvp.png" alt="SpaceIO CRM Dashboard MVP Preview" class="dashboard-screenshot">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES SECTION -->
+  <section class="features-section" id="features">
+    <div class="section-header">
+      <h2 class="section-title">Designed to streamline your design business.</h2>
+      <p class="section-subtitle">Ditch the messy excel sheets and manual word documents. SpaceIO automates your administrative workflows.</p>
+    </div>
+    
+    <div class="features-grid">
+      <!-- Feature Card 1 -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="9" y1="3" x2="9" y2="21"/><line x1="15" y1="3" x2="15" y2="21"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/></svg>
+        </div>
+        <h3 class="feature-card-title">Smart Estimation Engine</h3>
+        <p class="feature-card-desc">Select components dynamically from an interior catalog, apply custom labor/material rates, set your margins, and auto-calculate GST instantly.</p>
+      </div>
+      
+      <!-- Feature Card 2 -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <h3 class="feature-card-title">Client & Lead Tracking</h3>
+        <p class="feature-card-desc">Maintain full profiles for every client. Keep addresses, site details, phone numbers, and interactive histories linked directly to estimates.</p>
+      </div>
+
+      <!-- Feature Card 3 -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <h3 class="feature-card-title">Automatic Revision Locking</h3>
+        <p class="feature-card-desc">Prevent accidental document overrides. SpaceIO tracks modifications and locks identical saves to avoid duplicating versions (V1, V2, etc.) unnecessarily.</p>
+      </div>
+
+      <!-- Feature Card 4 -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+        </div>
+        <h3 class="feature-card-title">Dynamic PDF Proposal Engine</h3>
+        <p class="feature-card-desc">Compile estimations into print-ready, high-fidelity PDF files instantly. Inject custom logo branding, studio details, terms and conditions, and automated signature acceptance blocks.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIVE DYNAMIC PREVIEW SECTION -->
+  <section class="preview-section" id="preview">
+    <div class="section-header">
+      <h2 class="section-title">See your brand in real-time.</h2>
+      <p class="section-subtitle">Customize company metadata and terms below, and watch the dynamic PDF engine construct your signature document.</p>
+    </div>
+    
+    <div class="preview-grid">
+      <!-- Options Customizer -->
+      <div class="preview-config glass-card">
+        <h3 class="config-title">PDF Branding Editor</h3>
+        
+        <div class="form-group">
+          <label class="config-label">Company / Studio Name</label>
+          <input type="text" id="brandNameInput" class="config-input" value="SpaceIO Studios">
+        </div>
+
+        <div class="form-group">
+          <label class="config-label">Standard Payment Terms</label>
+          <textarea id="termsInput" class="config-textarea" rows="4">1. Payment: 40% Booking Advance, 40% on Material Delivery, 20% on Completion.
+2. Prices are valid for 30 days from proposal date.</textarea>
+        </div>
+      </div>
+      
+      <!-- Simulated PDF Mockup -->
+      <div class="pdf-container">
+        <div class="pdf-paper" id="pdfPreviewPaper">
+          <div class="pdf-header">
+            <div class="pdf-brand-info">
+              <span class="pdf-brand-name" id="pdfBrandName">SpaceIO Studios</span>
+              <span class="pdf-brand-sub">Premium Estimate Proposal</span>
+            </div>
+            <div class="pdf-logo-box">
+              <img src="images/spaceio_logo.png" alt="Logo" class="pdf-logo-img">
+            </div>
+          </div>
+          
+          <div class="pdf-divider" id="pdfDivider"></div>
+          
+          <div class="pdf-body">
+            <div class="pdf-meta-table">
+              <div class="pdf-meta-row"><span class="pdf-meta-lbl">Client:</span> <span class="pdf-meta-val">Aarav Mehta</span></div>
+              <div class="pdf-meta-row"><span class="pdf-meta-lbl">Date:</span> <span class="pdf-meta-val">June 7, 2026</span></div>
+            </div>
+            
+            <table class="pdf-table">
+              <thead>
+                <tr id="pdfTableHeader">
+                  <th>Item Details</th>
+                  <th class="text-right">Qty</th>
+                  <th class="text-right">Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Custom Engineered Modular Wardrobe (Oak Finish)</td>
+                  <td class="text-right">1</td>
+                  <td class="text-right">₹1,85,000</td>
+                </tr>
+                <tr>
+                  <td>L-Shaped Premium Suede Sofa (Forest Green)</td>
+                  <td class="text-right">1</td>
+                  <td class="text-right">₹1,45,000</td>
+                </tr>
+                <tr class="pdf-total-row">
+                  <td colspan="2" class="font-bold">Grand Total</td>
+                  <td class="text-right font-bold">₹3,30,000</td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <div class="pdf-terms">
+              <div class="pdf-terms-title">Terms & Conditions</div>
+              <p class="pdf-terms-text" id="pdfTermsText">1. Payment: 40% Booking Advance, 40% on Material Delivery, 20% on Completion.
+2. Prices are valid for 30 days from proposal date.</p>
+            </div>
+            
+            <div class="pdf-signatures">
+              <div class="pdf-sig-box">
+                <div class="pdf-sig-line"></div>
+                <div class="pdf-sig-title">Authorized Designer</div>
+              </div>
+              <div class="pdf-sig-box">
+                <div class="pdf-sig-line"></div>
+                <div class="pdf-sig-title">Client Acceptance Signature</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="pdf-footer">
+            <span class="pdf-footer-left">Page 1 of 1</span>
+            <span class="pdf-footer-right" id="pdfFooterRight">Generated by SpaceIO</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERACTIVE PRICING WIDGET -->
+  <section class="pricing-section" id="pricing">
+    <div class="section-header">
+      <h2 class="section-title">Transparent, scale-with-you pricing.</h2>
+      <p class="section-subtitle">Unlock unlimited proposals, clients, and user roles. Start with a 14-day trial, no card required.</p>
+    </div>
+    
+    <div class="pricing-container">
+      <div class="pricing-wrapper">
+        <!-- Billing Toggle centered at the top -->
+        <div class="billing-toggle-wrapper">
+          <span class="toggle-label-text">Monthly Billing</span>
+          <label class="switch">
+            <input type="checkbox" id="billingCycleToggle" checked>
+            <span class="slider round"></span>
+          </label>
+          <span class="toggle-label-text">Annual Billing <span class="discount-pill">Save 17%</span></span>
+        </div>
+        
+        <!-- Premium Price Display Card -->
+        <div class="price-card-premium">
+          <div class="card-header-plan">
+            <h3 class="plan-title">Studio License</h3>
+            <p class="plan-subtitle">Everything you need to run your design business.</p>
+          </div>
+          
+          <div class="price-display-block">
+            <div class="price-details">
+              <span class="price-currency">₹</span>
+              <span class="price-val" id="totalPriceDisplay">4,999</span>
+              <span class="price-period">/ year</span>
+            </div>
+            <p class="price-calc-note">(Equivalent to ₹417 / month, billed annually)</p>
+          </div>
+          
+          <div class="savings-alert-box" id="savingsContainer">
+            <svg class="sparkle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m0-12.728l.707.707m11.314 11.314l.707.707M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/></svg>
+            <span>You save <strong id="savingsAmount">₹989</strong> per year!</span>
+          </div>
+          
+          <div class="card-divider"></div>
+          
+          <ul class="pricing-features-list">
+            <li><span>✓</span> Unlimited Quotation Estimates</li>
+            <li><span>✓</span> PDF Core Layout Editor & Branding</li>
+            <li><span>✓</span> Dual Signature Verification Blocks</li>
+            <li><span>✓</span> Premium Catalog Seeding</li>
+          </ul>
+          
+          <a href="https://crm.withspaceio.in/login?tab=register" class="btn-primary btn-full text-center">Start Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACCORDION FAQ SECTION -->
+  <section class="faq-section" id="faq">
+    <div class="section-header">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <p class="section-subtitle">Got questions about SpaceIO? We've got answers. Or drop a line at <a href="mailto:hello@withspaceio.in" class="email-link">hello@withspaceio.in</a>.</p>
+    </div>
+    
+    <div class="faq-container">
+      <!-- FAQ item 1 -->
+      <div class="faq-item">
+        <button class="faq-trigger" id="faqBtn1">
+          <span>How do I add clients and projects?</span>
+          <span class="faq-icon-cross">+</span>
+        </button>
+        <div class="faq-content">
+          <p class="faq-text">In Step 1 (Project Registry) of the Quotation Builder, you can select an existing client or project from the dropdown menus to pre-fill details. To register a new one, select 'Create New Client' or 'Create New Project' and enter the name, phone, email, site address, and estimated budget to proceed.</p>
+        </div>
+      </div>
+      
+      <!-- FAQ item 2 -->
+      <div class="faq-item">
+        <button class="faq-trigger" id="faqBtn2">
+          <span>How do I allocate rooms or zones to a project?</span>
+          <span class="faq-icon-cross">+</span>
+        </button>
+        <div class="faq-content">
+          <p class="faq-text">In Step 2 (Room Allocation) of the Quotation Builder, you can define your project's layout by adding spaces (like Living Room, Kitchen, Bedrooms, etc.). You can search and select from a predefined list of standard spaces in the right sidebar or type in a custom name to add custom zones instantly.</p>
+        </div>
+      </div>
+
+      <!-- FAQ item 3 -->
+      <div class="faq-item">
+        <button class="faq-trigger" id="faqBtn3">
+          <span>How do I add items to my rooms and customize them?</span>
+          <span class="faq-icon-cross">+</span>
+        </button>
+        <div class="faq-content">
+          <p class="faq-text">In Step 3 (Catalog Item Mapping), select the active room tab on the left, then browse the Master Catalog in the right sidebar. Click any item to add it. Once added, you can customize the brand, quantity, markup percentage, discount, and pricing details directly inside the item card.</p>
+        </div>
+      </div>
+
+      <!-- FAQ item 4 -->
+      <div class="faq-item">
+        <button class="faq-trigger" id="faqBtn4">
+          <span>What pricing types are supported for quotation items?</span>
+          <span class="faq-icon-cross">+</span>
+        </button>
+        <div class="faq-content">
+          <p class="faq-text">SpaceIO supports three flexible pricing modes for items, which you can toggle dynamically:
+            <br>• <strong>Piece</strong>: Fixed pricing per unit (quantity × unit price).
+            <br>• <strong>Sq Ft (Square Feet)</strong>: Auto-calculates cost based on dimensions (Length × Height/Breadth) multiplied by a base rate per sq ft.
+            <br>• <strong>Running Ft (Running Feet)</strong>: Calculates cost based on Length multiplied by a base rate per running foot.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ item 5 -->
+      <div class="faq-item">
+        <button class="faq-trigger" id="faqBtn5">
+          <span>Can I upload my own company logo?</span>
+          <span class="faq-icon-cross">+</span>
+        </button>
+        <div class="faq-content">
+          <p class="faq-text">Yes! In your Profile Settings, you can paste an image URL or directly upload a file. SpaceIO will automatically scale your logo and embed it on the top header of all exported proposal documents.</p>
+        </div>
+      </div>
+
+      <!-- FAQ item 6 -->
+      <div class="faq-item">
+        <button class="faq-trigger" id="faqBtn6">
+          <span>What is Revision Version Control?</span>
+          <span class="faq-icon-cross">+</span>
+        </button>
+        <div class="faq-content">
+          <p class="faq-text">SpaceIO compares your active layout (rooms, items, quantities, pricing) to the database. If there are no differences since your last save, the "Save Quotation" button is disabled to prevent cluttering your project history with identical duplicate revisions (e.g. V2, V3).</p>
+        </div>
+      </div>
+
+      <!-- FAQ item 7 -->
+      <div class="faq-item">
+        <button class="faq-trigger" id="faqBtn7">
+          <span>Is there an export limit?</span>
+          <span class="faq-icon-cross">+</span>
+        </button>
+        <div class="faq-content">
+          <p class="faq-text">No. SpaceIO permits unlimited PDF generations and direct local downloads. All PDFs are automatically formatted with dynamic page numbering, centered logo headers, and dual-signature verification blocks.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="main-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="images/spaceio_logo.png" alt="SpaceIO Logo" class="footer-logo-img">
+          <span class="footer-logo-title">SpaceIO</span>
+        </div>
+        <p class="footer-desc">Premium interior design quotation engine and customer relationship manager.</p>
+      </div>
+      
+      <div class="footer-links-grid">
+        <div class="footer-links-col">
+          <h4 class="footer-links-title">Product</h4>
+          <a href="#features" class="footer-link">Features</a>
+          <a href="#preview" class="footer-link">Branding Preview</a>
+          <a href="#pricing" class="footer-link">Pricing</a>
+        </div>
+        <div class="footer-links-col">
+          <h4 class="footer-links-title">Support</h4>
+          <a href="mailto:hello@withspaceio.in" class="footer-link">hello@withspaceio.in</a>
+        </div>
+        <div class="footer-links-col">
+          <h4 class="footer-links-title">Legal</h4>
+          <a href="#" class="footer-link">Privacy Policy</a>
+          <a href="#" class="footer-link">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="footer-bottom-container">
+        <p class="copyright-text">&copy; 2026 SpaceIO CRM. All rights reserved.</p>
+        <p class="powered-stamp">Powered by <span class="stamp-highlight">SpaceIO CRM</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script Link -->
+  <script src="script.js"></script>
+</body>
+</html>
